@@ -73,7 +73,9 @@ function Intro({ goMainMap }) {
       {currentSlide !== 0 && <PrevButton onClick={prevSlide} />}
       <Indicator slideProps={slideProps} />
       <Button
-        buttonProps={currentSlide === 2 ? agreeButtonProps : nextButtonProps}
+        buttonProps={
+          currentSlide === TOTAL_SLIDES ? agreeButtonProps : nextButtonProps
+        }
       ></Button>
     </S.IntroPage>
   );

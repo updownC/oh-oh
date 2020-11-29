@@ -15,7 +15,7 @@ function Button({ buttonProps }) {
 
 Button.defaultProps = {
   buttonProps: {
-    size: "80%",
+    size: "75%",
     type: "plain",
     content: "확인",
     onClick: null,

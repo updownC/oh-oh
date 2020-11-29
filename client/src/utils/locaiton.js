@@ -2,7 +2,7 @@ const error = (error) => {
   console.log(error);
 };
 
-const options = {
+export const options = {
   maximumAge: 0,
   timeout: 10000,
 };

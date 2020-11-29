@@ -13,7 +13,7 @@ export const ButtonBlock = styled.div`
   align-items: center;
   outline: none;
   border: none;
-  width: ${(props) => props.size};
+  width: ${({ size }) => size};
   height: 5.2rem;
   border-radius: 6px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -26,6 +26,7 @@ export const ButtonBlock = styled.div`
       color: ${({ theme }) => theme.palette["ohBlack"]};
       background-color: white;
     `}
+
   ${({ type }) =>
     type === "solid" &&
     css`

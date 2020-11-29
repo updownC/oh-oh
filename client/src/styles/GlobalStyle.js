@@ -1,4 +1,3 @@
-import { Children } from "react";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 
 import palette from "./palette";
@@ -64,6 +63,7 @@ body, html {
   font-size: 62.5%;
   font-family: 'Spoqa Han Sans', 'Sans-serif';
 }
+
 `;
 
 function GlobalStyle({ children }) {
